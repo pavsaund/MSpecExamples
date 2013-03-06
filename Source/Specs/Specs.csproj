@@ -50,6 +50,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Controllers\for_ShopController\given\a_shop_controller.cs" />
+    <Compile Include="Controllers\for_ShopController\when_a_user_attempts_to_buy_a_banana_when_the_shop_is_empty.cs" />
     <Compile Include="Controllers\for_ShopController\when_user_that_isnt_logged_in_buys_a_banana_he_should_get_a_reciept_page.cs" />
     <Compile Include="for_BananaShop\when_a_user_buys_a_banana_from_the_bananashop.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

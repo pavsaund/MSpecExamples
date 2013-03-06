@@ -40,6 +40,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BananaShop.cs" />
+    <Compile Include="DonkeyKongWasHereException.cs" />
     <Compile Include="IBananaShop.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

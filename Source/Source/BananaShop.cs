@@ -4,9 +4,14 @@ namespace Source
 {
     public class BananaShop : IBananaShop
     {
-        void IBananaShop.BuyBanana()
+        public BananaShop()
         {
-            throw new NotImplementedException();
+            BananasInCart = 0;
+        }
+
+        public void BuyBanana()
+        {
+            BananasInCart++;
         }
 
         public int BananasInCart { get; set; }
